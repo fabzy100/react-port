@@ -61,7 +61,8 @@ const ContactForm = () => {
             onChange={(e) => setMessage(e.target.value)}
             required
           ></textarea>
-        </div>        <button type="submit">Submit</button>
+        </div>        
+        <button type="submit">Submit</button>
       </form>
 
       {responseMessage && <p>{responseMessage}</p>}
